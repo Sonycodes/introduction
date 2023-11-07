@@ -28,3 +28,9 @@ box-sizing: border-box;
 #checkbox:checked ~ .box{
     background-color: yellow;
 }
+
+#cupcake{
+    width: 100px;
+    height: 100px;
+    
+}
