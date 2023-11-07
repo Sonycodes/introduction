@@ -3,7 +3,7 @@
     padding: 0;
 box-sizing: border-box;
 }
-/* .parent{
+.parent{
  min-width: 500px;
     height: 300px;
     border: 1px solid red;
@@ -18,7 +18,7 @@ box-sizing: border-box;
     min-width:100px ;
     min-height:100px ;
     background-color: green;
-} */
+}
 
 .box{
     height: 80px;
