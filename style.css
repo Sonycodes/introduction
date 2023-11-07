@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+box-sizing: border-box;
+}
+/* .parent{
+ min-width: 500px;
+    height: 300px;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+}
+
+.enfant{
+    min-width:100px ;
+    min-height:100px ;
+    background-color: green;
+} */
+
+.box{
+    height: 80px;
+    width: 80px;
+    background-color: purple;
+}
+#checkbox:checked ~ .box{
+    background-color: yellow;
+}
