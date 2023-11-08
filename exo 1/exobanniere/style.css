@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+header{
+    width: 100%;
+    min-width: 10vw;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 10vh;
+    z-index: 10;
+    line-height: 10vh;
+    position: fixed;
+    background-color:rgb(189, 162, 215);
+}
+.logo{
+    text-decoration: none;
+    font-weight: bold;
+    color: #551A8B;
+}
+
+.myimage{
+    width:100%;
+    height: 15em;
+    object-fit:cover;
+}
+
+.navItems{
+    display: flex;
+    padding: 0 10%;
+}
+
+.navItems li{
+    list-style: none;
+   margin-right: 1vw;
+}
+
+.navItems li a{
+    text-decoration: none;
+}
+
+.navItems li:hover a, .links a:hover{
+    color:saddlebrown;
+}
+.imgsection{
+    display: flex;
+}
+
