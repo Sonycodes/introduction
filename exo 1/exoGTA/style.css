@@ -32,8 +32,10 @@ header{
     }
 
 
-nav{
+.navstyle{
     display: flex;
+    padding: 0 15%;
+    padding-right: 20px;
     width: 100%;
     justify-content: space-between;
     height: 130px;
@@ -41,12 +43,6 @@ nav{
     line-height: 130px;
     position: fixed;
     background-color:black;
-
-}
-.navstyle{
-    display: flex;
-    padding: 0 15%;
-    padding-right: 20px;
 }
 
 .navstyle {
@@ -122,10 +118,12 @@ color:orange;
    line-height: 32px;
    font-size: 15;
    color: rgb(34, 33, 33);
+   margin-bottom: 60px;
   }
   
   iframe{
-    padding: 30px 0;
+    padding: 30px;
+     /* margin-top: 30px; */
   }
   .source{
 color: black;
@@ -141,7 +139,13 @@ text-align: end;
     font-style: italic;
     font-weight: 300;
   }
+.contactbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+}
   .contact{
     display: flex;
     align-items: center;
@@ -150,8 +154,22 @@ text-align: end;
     border-top: solid;
     border-width: 0.5px;
     margin-bottom: 0;
-    border-color:rgb(230, 227, 227); ;
+    border-color:rgb(230, 227, 227); 
+    width: 100%;
     
+  }
+
+
+
+  #iconcol1:hover{
+color:blue
+  }
+.iconcolr{
+    
+  }
+
+ .contact #iconcolv:hover{
+color: green;
   }
   .borderbottom{
     border-top: solid;
@@ -159,9 +177,90 @@ text-align: end;
     margin-top: 0;
 border-color:rgb(230, 227, 227); ;
 padding-bottom: 50px;
+width: 1000px;
+
   }
 
   .social{
     color: black;
     padding-right: 10px;
+  }
+
+  .bottomnav{
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: 30px; */
+background-color: #f7f7f7;
+
+  }
+  .bottomnav .suivant, .precedent{
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .bottomnav .suivant, .precedent p{
+    padding: 0 10px;
+    font-size: 13.5px;
+    color:rgb(34, 33, 33);;
+    text-transform: uppercase;
+    height: 100px;
+line-height: 100px;
+  }
+
+
+  footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    /* margin-right: 1vw; */
+  }
+
+
+.mention{
+    color: aliceblue;
+    font-size: 11px;
+  }
+.bottomsocial{
+    color: aliceblue;
+    padding: 5px;
+  }
+
+  .gotop a{
+background-color: rgba(128, 128, 128, 0.252);
+padding: 4px;
+border-radius: 2px;
+/* margin-left: 100px; */
+  }
+  .gotop a i{
+    color: aliceblue;
+padding: 0 5px;
+  }
+
+  .notbutton{
+
+  }
+
+  @media (max-width: 768px) {
+    .content{
+      width: 100vw;
+      margin: 0;
+
+    }
+    h3{
+      width:100vw;
+    }
+    .baniere{
+      /* width: 1400px; */
+      
+    }
+    .barre{
+      padding: 0 1px;
+    }
+    iframe{
+      padding: 30px 0;
+      width: 550px;
+       height: 274px;
+    }
   }
